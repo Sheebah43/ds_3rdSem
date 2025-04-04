@@ -20,8 +20,7 @@ int main()
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&X[i]);
-	} //it's taking n+1 elements for who knows what reason
-	//attemptCount: can't remember->the space was the problem, I'm in disbelief; I've wasted half of the time I had but now I have a reason
+	} 
 	printf("\n");
 	for(i=0;i<n;i++)
 	{
@@ -32,12 +31,8 @@ int main()
 	{
 		printf("%d\t",Y[i]);
 	} // for some reason it's copying X's elements; also provides garbage values if the m!=n
-	//attempt2:well if u were studying well then you'd know that u can't initialize a variable size array, it mostly gives error, here it's going rogue
+	//attempt2:can't initialize a variable size array
 	
-	/*none of the above (except for A, A is well-behaved) loops are working as envisioned
-	it can't be humanly possible to make such basic program do anything but the intended job
-	hence I've concluded, I'm not human and I shouldn't be bothered with such tasks*/
-	//attempt2
 	Y[0]=11;
 	Y[1]=22;
 	Y[3]=44;
@@ -45,10 +40,10 @@ int main()
 	for(i=0;i<10;i++)
 	{
 		printf("%d\t",Y[i]);
-	}//it's copying B's elements for the garbage values but then again it izzzz rogue so yeahhhh
+	}//it's copying B's elements for the garbage values 
 	printf("\n");
 	printf("Enter the size of the array Z\n");
-	scanf("%d",&o); //it won't scan???????????????????????????????????
+	scanf("%d",&o);
 	printf("Enter elements:-\n");
 	for(i=0;i<o;i++)
 	{
