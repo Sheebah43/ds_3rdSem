@@ -42,11 +42,6 @@ printf("Enter the elements:-\n");
 for(i=0; i<n; i++){
 	scanf("%d", &a[i]);
 }
-/*for(i=0; i<n; i++){
-	scanf ("%d ", &a[i]);
-}
-This one isn't working well for some reason and I have no clue what's going on
-*/
 int size = sizeof(a)/sizeof(a[0]);
 freePos = n;
 if(n == size){
